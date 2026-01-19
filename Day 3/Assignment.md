@@ -1,0 +1,3 @@
+Q1:  Write a python program to demonstrate data processing by handling the missing values, encoding the categorical values and do feature normalization. 
+Q2: Plot the distribution of the feature using matplotlib.pyplot.hist()
+Q3. Create a sub-table which contains only numeric column, that is by extracting multiple columns and store it an variable;  Then do correlation analysis by using .corr() function over it and then project the correlation matrix via heatmap function in seaborn library as mentioned in the reference code.
