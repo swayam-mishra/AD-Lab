@@ -1,0 +1,172 @@
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body>
+
+<h1 align="center">Campus Placement Registration Form</h1>
+<hr>
+
+<form>
+
+    <table cellpadding="5" cellspacing="0" align="center" border="0">
+        
+        <tr>
+            <td colspan="2"><h3>Personal Details</h3></td>
+        </tr>
+
+        <tr>
+            <td>Full Name</td>
+            <td><input type="text" name="student_name" size="40"></td>
+        </tr>
+
+        <tr>
+            <td>Registration / Roll No.</td>
+            <td><input type="text" name="roll_no" size="25"></td>
+        </tr>
+
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name="gender" value="Female"> Female
+                <input type="radio" name="gender" value="Other"> Other
+            </td>
+        </tr>
+
+        <tr>
+            <td>Date of Birth</td>
+            <td><input type="text" name="dob" placeholder="DD-MM-YYYY"></td>
+        </tr>
+
+        <tr>
+            <td>Contact Number</td>
+            <td><input type="text" name="phone" size="20"></td>
+        </tr>
+
+        <tr>
+            <td>Email ID</td>
+            <td><input type="text" name="email" size="40"></td>
+        </tr>
+
+        <tr>
+            <td>Address</td>
+            <td><textarea name="address" rows="3" cols="35"></textarea></td>
+        </tr>
+
+        <!-- Academic Details -->
+        <tr>
+            <td colspan="2"><h3>Academic Details</h3></td>
+        </tr>
+
+        <tr>
+            <td>Department</td>
+            <td>
+                <select name="department">
+                    <option value="">-- Select Department --</option>
+                    <option value="CSE">Computer Science & Engineering</option>
+                    <option value="IT">Information Technology</option>
+                    <option value="ECE">Electronics & Communication</option>
+                    <option value="ME">Mechanical Engineering</option>
+                    <option value="EE">Electrical Engineering</option>
+                    <option value="CE">Civil Engineering</option>
+                    <option value="Other">Other</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Year / Semester</td>
+            <td>
+                <select name="year">
+                    <option value="">-- Select Year --</option>
+                    <option value="3rd">3rd Year</option>
+                    <option value="4th">4th Year</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>10th Percentage</td>
+            <td><input type="text" name="tenth_percentage"> %</td>
+        </tr>
+
+        <tr>
+            <td>12th / Diploma Percentage</td>
+            <td><input type="text" name="twelfth_percentage"> %</td>
+        </tr>
+
+        <tr>
+            <td>Current CGPA</td>
+            <td><input type="text" name="cgpa"></td>
+        </tr>
+
+        <tr>
+            <td>No. of Active Backlogs</td>
+            <td><input type="text" name="backlogs" value="0"></td>
+        </tr>
+
+        <!-- Placement Details -->
+        <tr>
+            <td colspan="2"><h3>Placement Details</h3></td>
+        </tr>
+
+        <tr>
+            <td>Preferred Job Role</td>
+            <td>
+                <select name="job_role">
+                    <option value="">-- Select Role --</option>
+                    <option value="Software Engineer">Software Engineer</option>
+                    <option value="Web Developer">Web Developer</option>
+                    <option value="Data Analyst">Data Analyst</option>
+                    <option value="Network Engineer">Network Engineer</option>
+                    <option value="Other">Other</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Preferred Job Location</td>
+            <td>
+                <input type="checkbox" name="location" value="Bangalore"> Bangalore
+                <input type="checkbox" name="location" value="Hyderabad"> Hyderabad
+                <input type="checkbox" name="location" value="Pune"> Pune
+                <input type="checkbox" name="location" value="Delhi"> Delhi/NCR
+                <input type="checkbox" name="location" value="Other"> Other
+            </td>
+        </tr>
+
+        <tr>
+            <td>Resume Link (if any)</td>
+            <td><input type="text" name="resume_link" size="40"></td>
+        </tr>
+
+        <!-- Declaration -->
+        <tr>
+            <td colspan="2"><h3>Declaration</h3></td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <input type="checkbox" name="declaration">
+                I hereby declare that the information provided above is true to the best of my knowledge.
+            </td>
+        </tr>
+
+        <!-- Buttons -->
+        <tr>
+            <td align="right">
+                <input type="reset" value="Reset">
+            </td>
+            <td align="left">
+                <input type="submit" value="Submit Registration">
+            </td>
+        </tr>
+
+    </table>
+
+</form>
+
+</body>
+</html>

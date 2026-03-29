@@ -1,0 +1,1 @@
+In today's class you need to run very basic CNN on the CIFAR-100 dataset, keep number of channels 3, 5x5 filter with stride 1, use sigmoid activation on fully connected component.

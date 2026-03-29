@@ -18,3 +18,4 @@ Django/predictor/__pycache__/
 # OS
 .DS_Store
 Thumbs.db
+*.zip
